@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "projects": {
+    "writing/example-project": {
+      "path": "writing/example-project",
+      "indexFile": "Index",
+      "draftsPath": "Drafts/"
+    }
+  },
+  "selectedProject": "writing/example-project",
+  "selectedDraft": "Draft 1"
+}

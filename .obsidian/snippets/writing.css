@@ -1,0 +1,51 @@
+.longform {
+  --background-primary: white;
+  --background-primary-alt: white;
+  --background-secondary: transparent;
+  --background-secondary-alt: white;
+  --text-selection: #aaa;
+  --text-normal: black;
+  --default-font: Baskerville;
+}
+
+.longform .CodeMirror {
+  max-width: 600px !important;
+}
+
+.longform .markdown-source-view {
+  font-size: 1.2rem;
+  text-indent: 2rem;
+}
+
+.longform .suggestion-item.is-selected {
+  background-color: var(--text-accent);
+}
+
+.longform-leaf {
+  --background-primary: white;
+  --background-primary-alt: white;
+  --background-secondary: white;
+  --background-secondary-alt: white;
+  --text-selection: #aaa;
+  --text-normal: black;
+  --default-font: Baskerville;
+  font-family: Baskerville;
+  color: black;
+}
+
+.longform-leaf .CodeMirror {
+  max-width: 600px !important;
+}
+
+.longform-leaf .markdown-source-view {
+  font-size: 1.2rem;
+  text-indent: 2rem;
+}
+
+.longform-leaf .suggestion-item.is-selected {
+  background-color: var(--text-accent);
+}
+
+.longform-leaf .view-header {
+  background-color: white;
+}

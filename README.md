@@ -1,0 +1,1 @@
+This is an example Obsidian vault with a subset of my own personal vault's configuration. I keep telling people about random configs I have, and this is a way to share them. I may add future setups over time.
