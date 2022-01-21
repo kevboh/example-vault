@@ -1,5 +1,7 @@
 [[<% tp.date.now("YYYY-MM-DD", -1) %>|< Yesterday]] | [[<% tp.date.now("YYYY-MM-DD", 1) %>|Tomorrow >]]
 
+You have been alive for <% tp.user.memento_mori("1969-01-01") %> days.
+
 ### <% tp.date.now("dddd, MMM D, Y") %>
 
 <% tp.file.cursor(0) %>
