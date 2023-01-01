@@ -1,5 +1,6 @@
 [
   "templater-obsidian",
   "dataview",
-  "longform"
+  "longform",
+  "customjs"
 ]

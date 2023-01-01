@@ -1,5 +1,6 @@
 {
   "legacyEditor": false,
   "livePreview": true,
-  "attachmentFolderPath": "res"
+  "attachmentFolderPath": "res",
+  "showUnsupportedFiles": true
 }

@@ -1,45 +1,45 @@
-.longform {
+.longform-leaf {
   --background-primary: white;
   --background-primary-alt: white;
-  --background-secondary: transparent;
+  --background-secondary: white;
   --background-secondary-alt: white;
-  --text-selection: #aaa;
-  --text-normal: black;
-  --default-font: Baskerville;
 }
 
-.longform .CodeMirror {
+.longform-leaf .cm-contentContainer {
   max-width: 600px !important;
 }
 
-.longform .markdown-source-view {
-  font-size: 1.2rem;
-  text-indent: 2rem;
-}
-
-.longform .suggestion-item.is-selected {
-  background-color: var(--text-accent);
-}
-
-.longform-leaf {
+.longform-leaf .markdown-source-view {
   --background-primary: white;
   --background-primary-alt: white;
   --background-secondary: white;
   --background-secondary-alt: white;
   --text-selection: #aaa;
   --text-normal: black;
-  --default-font: Baskerville;
-  font-family: Baskerville;
+  --font-text: Baskerville;
   color: black;
-}
-
-.longform-leaf .CodeMirror {
-  max-width: 600px !important;
-}
-
-.longform-leaf .markdown-source-view {
+  background-color: white;
   font-size: 1.2rem;
   text-indent: 2rem;
+}
+
+.longform-leaf .markdown-preview-view {
+  --background-primary: white;
+  --background-primary-alt: white;
+  --background-secondary: white;
+  --background-secondary-alt: white;
+  --text-selection: #aaa;
+  --text-normal: black;
+  --font-text: Baskerville;
+  color: black;
+  background-color: white;
+  font-size: 1.2rem;
+  text-indent: 2rem;
+}
+
+.longform-leaf .markdown-source-view .cm-hmd-frontmatter {
+  font-size: 1rem;
+  text-indent: -19px;
 }
 
 .longform-leaf .suggestion-item.is-selected {
@@ -48,4 +48,8 @@
 
 .longform-leaf .view-header {
   background-color: white;
+}
+
+.longform-leaf .view-header-title {
+  --text-normal: black;
 }
